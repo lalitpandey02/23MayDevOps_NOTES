@@ -244,7 +244,8 @@ Branching
 # git checkout b1 or git switch b1
 # git status  
  // On branch b1
- # git checkout -b b2 //this will create a new branch and switch to it
+# git checkout -b b2 //this will create a new branch and switch to it
+# git branch br2 br1 //this will create a new branch br2 with the base as br1
 
 # git ls-files // all files same as master on b1
 # git log --oneline // all commit same as master 
@@ -266,8 +267,6 @@ Merging a file from branch b1 to master
 # git ls-files
 # git log --oneline
 
-************************************************************
-
 Merging only specific files from one branch to another using cherry picking
 
 git log --oneline
@@ -279,6 +278,10 @@ a0d586f (master) on feature branch
 # git checkout master
 
 # git cherry-pick ea0d48f ----This command will merge the logout file to master 
+
+
+To rename a branch go to that branch 
+git branch -m main //This will rename the branch to main
 
 ************************************************************
 
