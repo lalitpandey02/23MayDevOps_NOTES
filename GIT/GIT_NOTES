@@ -361,9 +361,11 @@ Done
 
 Scenario 3:
 
-Push the chnages from local to remote
+Push the changes from local to remote
 
-git push origin master
+git remote add origin <rempte repo link>.git
+
+git push -u origin master --master is the branch name. Sometimes master will not work, then use main
 
 pull & fetch changes
 
