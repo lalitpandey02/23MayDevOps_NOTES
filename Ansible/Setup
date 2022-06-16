@@ -50,7 +50,7 @@ Repeat all the 4 steps on Host machine also and restart the sshd connection on h
 
 ************************
 
-Install Ansible :
+Install Ansible [ONLY ON ANSIBLE CONTROLLER MACHINE]:
 
 Step 1:
 *************
